@@ -9,3 +9,11 @@ Thématique des cours :
 * Cours 2 : design pattern MVC et strucure du JEE (Java Entreprise Edition)
 * Cours 3 : sérialisation + Maven avec JUnit pour les tests unitaires
 * Cours 4 : WebServices & SOAP (Simple Object Access Protocol)
+
+
+
+
+
+
+Timothée REBEL
+Arthur GACHOD
