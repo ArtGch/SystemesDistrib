@@ -1,6 +1,6 @@
-#MEMO GIT
+# MEMO GIT
 
-##CONFIGURATION DE GIT
+## CONFIGURATION DE GIT
 git config --global color.diff auto   : active la couleur
 git config --global color.status auto : active la couleur
 git config --global color.branch auto : active la couleur
@@ -10,12 +10,12 @@ git config --global user.email moi@email.com : définit l'email
 
 vim ~/.gitconfig : edition du fichier de configuration
 
-##CREATION/CLONAGE DE DEPOT
+## CREATION/CLONAGE DE DEPOT
 git init 	     : créer un dépôt
 git clone https//... : cloner un dépôt
 git init --bare      : créer un dépôt sur le serveur (uniquement le fichier .git)
 
-##COMMIT
+## COMMIT
 git status          : indique les fichiers modifié récemment
 git diff            : affiche toutes les modifications
 git diff nomFichier : affiche toutes les modifications du fichier
@@ -24,7 +24,7 @@ git add nomfichier1 nomfichier2    : ajoute les fichiers à la liste du prochain
 git commit -a                      : commit tous les fichiers (même ceux qui n'ont pas été git add)
 git commit nomfichier1 nomfichier2 : indique les fichiers à commiter
 
-##LOG ET ERREUR
+## LOG ET ERREUR
 git log        : historique des commits
 git log -p     : historique des commits avec le détail des ligne ajoutées/retirées
 git log --stat : historique des commits avec un détail mrésumé
@@ -37,13 +37,13 @@ git reset --hard HEAD^              : annule le dernier commit ET les changement
 git checkout nomFichier             : restaurer le fichier tel qu'il était au dernier commit
 git reset HEAD -- fichierASupprimer : annuler/supprimer un fichier avant commit
 
-##PARTAGE DU TRAVAIL
+## PARTAGE DU TRAVAIL
 git pull : télécharger les nouveautés depuis le serveur
 git push : envoie les nouvelles modifications (commits) sur le serveur (! attention plus possible d'annuler !)
 
 git revert 762cc4 : crée un commit inverse pour "annuler" un mauvais commit pusher
 
-##BRANCHES
+## BRANCHES
 git branch                    : lister les branches
 git branch nomNouvelleBranche : créer une nouvelle branche
 git checkout nomBranche       : changer de branche
@@ -61,7 +61,7 @@ git push origin origin:refs/heads/nom_nouvelle_branche : ajouter une nouvelle br
 git push origin :heads/nom_branche_a_supprimer         : supprimer une branche sur le serveur origin
 git branch -r -d origin/nom_branche_a_supprimer        : supprimer une branche locale suite à la supression de la branche sur le serveur
 
-##AUTRES
+## AUTRES
 git tag NOMTAG IDCOMMIT : ajouter un tag sur un commit
 git push --tags         : envoie le tag lors du push (sinon il n'est pas envoyé)
 git tag -d nomTag       : supprimer un tag créé
