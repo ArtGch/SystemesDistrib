@@ -1,14 +1,14 @@
 # MEMO GIT
 
 ## CONFIGURATION DE GIT
-git config --global color.diff auto   : active la couleur
-git config --global color.status auto : active la couleur
-git config --global color.branch auto : active la couleur
+git config --global color.diff auto   | active la couleur
+git config --global color.status auto | active la couleur
+git config --global color.branch auto | active la couleur
 
-git config --global user.name "votre_pseudo" : définit le nom
-git config --global user.email moi@email.com : définit l'email
+git config --global user.name "votre_pseudo" | définit le nom
+git config --global user.email moi@email.com | définit l'email
 
-vim ~/.gitconfig : edition du fichier de configuration
+vim ~/.gitconfig | edition du fichier de configuration
 
 ## CREATION/CLONAGE DE DEPOT
 git init 	     : créer un dépôt
